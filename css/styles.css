@@ -32,9 +32,10 @@ body {
 .address-list {
 list-style:none
 }
- .link {
-    text-decoration: none;
-   }
+.link {
+text-decoration:none
+}
+
 .address-link {
 font-weight: 400;
 font-size: 16px;
@@ -42,8 +43,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 font-style: normal;
+text-decoration: none;
    }
-
 .address-link:hover,
 .address-link:focus {
   color: #404BBF;
@@ -73,7 +74,7 @@ background-color: #2E2F42;;
   cursor: pointer
 }
 
-/**---------PRIORITIES-------/
+/**--------------PRIORITIES-----------------*/
 .priorities {
 }
 .priorities-title {
@@ -103,7 +104,7 @@ background-color: #2E2F42;;
   color: #434455;
 }
 
-/**---------SERVICES-------/
+/**--------------SERVICES-----------------*/
 .services {
 }
 .services-title {
@@ -114,15 +115,15 @@ background-color: #2E2F42;;
   text-transform: capitalize;
   color: #2E2F42;
 }
-.hero-services-list {
+.services-list {
   list-style:none
   
 }
 .services-item {
 }
 
-/**---------TEAM-------/
-.hero-team {
+/**--------------TEAM-----------------*/
+.team {
 }
 .team-title {
   font-size: 36px;
@@ -149,4 +150,18 @@ background-color: #2E2F42;;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+/**--------------FOOTER-----------------*/
+.footer {
+  background: #2E2F42;
+}
+.footer-logo {
+  text-decoration:none;
+  color: #F4F4FD;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
 }
