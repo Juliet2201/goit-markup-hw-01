@@ -22,17 +22,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2E2F42;
-   text-decoration:none;
+  text-decoration:none;
 }
 .address-list{
 list-style:none
-
 }
 
 .address-link {
 text-decoration:none;
-list-style:none
+font-style: normal;
    }
-a {
-  text-decoration:none
-}
+
