@@ -1,3 +1,8 @@
+:root {
+  --title-color: #2E2F42;
+  --subtitle-color: #2E2F42;
+}
+
 body {
   font-family:roboto, sans-serif;
 }
@@ -20,7 +25,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--title-color)
   text-decoration:none;
 }
 
@@ -59,7 +64,7 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-background-color: #2E2F42;;
+background-color: var(--title-color)
 }
 .hero-btn {
   font-family: inherit;
@@ -83,7 +88,7 @@ background-color: #2E2F42;;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2E2F42;
+  color: var(--title-color)
  }
 .priorities-list {
   list-style:none
@@ -95,7 +100,7 @@ background-color: #2E2F42;;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--subtitle-color)
 }
 .priorities-text {
    font-size: 16px;
@@ -113,7 +118,7 @@ background-color: #2E2F42;;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2E2F42;
+  color: var(--title-color)
 }
 .services-list {
   list-style:none
@@ -131,7 +136,7 @@ background-color: #2E2F42;;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2E2F42;
+  color: var(--title-color)
 }
 .team-list {
   list-style:none
@@ -143,7 +148,7 @@ background-color: #2E2F42;;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--subtitle-color)
 }
 .team-text {
   font-size: 16px;
